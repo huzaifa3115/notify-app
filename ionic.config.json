@@ -1,0 +1,7 @@
+{
+  "name": "notify-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

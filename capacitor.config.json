@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "notify-app",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
