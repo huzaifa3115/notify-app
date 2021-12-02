@@ -370,3 +370,55 @@ ion-grid.settings-options-wrapper {
 p.settings-option-label {
   font-size: 22px;
 }
+
+p.subscriber-count {
+  align-self: end;
+  margin-left: 1%;
+  color: #848689;
+}
+
+ion-input.subscriber-search-box {
+  border: 1px solid;
+  margin-left: 1%;
+  --padding-start: 1% !IMPORTANT;
+}
+
+.subscriber-main-content {
+  margin-left: 2%;
+}
+
+.profile-nickname {
+  color: #848689;
+  font-size: 21px;
+  margin-left: 2%;
+}
+
+.subscribers-item-wrapper {
+  margin-top: 3%;
+}
+
+.subscribers-item {
+  border: 1px solid #848689;
+  margin-bottom: 2%;
+}
+
+.profile-avatar-placeholder {
+  background: #00a3e8;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.subscribers-item-inner {
+  display: flex;
+  align-items: center;
+  padding: 0 2%;
+}
+
+.subscribers-item-inner-end {
+  justify-content: flex-end;
+}
+
+.subscribers-item-icon {
+  font-size: 30px;
+}
