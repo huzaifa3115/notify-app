@@ -18,6 +18,22 @@ const routes: Routes = [
   {
     path: 'register',
     loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'dashboard',
+    loadChildren: () => import('./dashboard/dashboard.module').then( m => m.DashboardPageModule)
+  },
+  {
+    path: 'settings',
+    loadChildren: () => import('./settings/settings.module').then( m => m.SettingsPageModule)
+  },
+  {
+    path: 'subcribers',
+    loadChildren: () => import('./subcribers/subcribers.module').then( m => m.SubcribersPageModule)
+  },
+  {
+    path: 'sendnotifications',
+    loadChildren: () => import('./sendnotifications/sendnotifications.module').then( m => m.SendnotificationsPageModule)
   }
 ];
 

@@ -240,7 +240,7 @@
 p.logo-heading-text {
   font-size: 16px;
   font-weight: bold;
-  margin-top: 8%;
+  margin-top: 5%;
   margin-left: 5%;
 }
 
@@ -270,6 +270,7 @@ ul.auth-side-menu-item-wrapper li a {
 
 .auth-header-wrapper ion-col {
   padding: 0;
+  align-self: center;
 }
 
 .search-input-wrapper {
@@ -319,4 +320,53 @@ ion-label.auth-form-label {
   font-size: 19px;
   text-transform: capitalize;
   margin-top: 10%;
+}
+
+ul.footer-links-wrapper {
+  list-style: none;
+  display: flex;
+}
+
+ul.footer-links-wrapper li {
+  margin-left: 2%;
+}
+
+ul.footer-links-wrapper li a {
+  font-size: 16px;
+  color: #000;
+}
+
+.footer {
+  text-align: end;
+}
+
+.header-user-avatar {
+  width: 50px;
+  border-radius: 50px;
+  height: 50px;
+  align-self: center;
+}
+
+.header-avatar-row {
+  float: right;
+}
+
+.dashboard-stats-select-input {
+  background: #eceaeb;
+  --color: #000;
+  width: 10%;
+}
+
+ion-grid.settings-options-wrapper {
+  padding: 5%;
+}
+
+.settings-options-item {
+  border: 1px solid;
+  text-align: center;
+  padding: 10% 0;
+}
+
+p.settings-option-label {
+  font-size: 22px;
 }
