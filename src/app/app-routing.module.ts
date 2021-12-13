@@ -34,6 +34,18 @@ const routes: Routes = [
   {
     path: 'sendnotifications',
     loadChildren: () => import('./sendnotifications/sendnotifications.module').then( m => m.SendnotificationsPageModule)
+  },
+  {
+    path: 'subscription',
+    loadChildren: () => import('./subscription/subscription.module').then( m => m.SubscriptionPageModule)
+  },
+  {
+    path: 'notifications',
+    loadChildren: () => import('./notifications/notifications.module').then( m => m.NotificationsPageModule)
+  },
+  {
+    path: 'profile',
+    loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule)
   }
 ];
 

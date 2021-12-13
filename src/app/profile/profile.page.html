@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row class="auth-header-wrapper">
+        <ion-col size="3">
+          <p class="logo-heading-text">Logo Type</p>
+        </ion-col>
+        <ion-col size="4">
+          <ion-item class="search-input-wrapper">
+            <ion-input class="search-input"></ion-input>
+            <ion-icon name="search" slot="end"></ion-icon>
+          </ion-item>
+        </ion-col>
+        <ion-col size="5" class="auth-side-menu">
+          <ion-row class="header-avatar-row">
+            <img src="assets/img/notify-user-avatar-image.png" class="header-user-avatar">
+            <h2 class="header-avatar-title">Johny Smith</h2>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="profile-content-wrapper">
+  <ion-item lines="none">
+    <h2 class="subscriber-count-title">
+      Profile
+    </h2>
+  </ion-item>
+  <div class="profile-inner-header-wrapper">
+    <h4 class="subscriber-count-title">
+      Profile
+    </h4>
+    <p class="profile-search-label">Search</p>
+  </div>
+  <div class="profile-image-wrapper">
+    <img src="assets/img/profile_default.png" />
+  </div>
+  <div class="profile-inner-header-wrapper profile-username-wrapper">
+    <label for="profile-username">Username</label>
+    <input class="profile-username-input" name="profile-username" id="profile-username" />
+  </div>
+  <div class="profile-inner-header-wrapper profile-bio-wrapper">
+    <label for="bio-username">Bio</label>
+    <textarea class="bio-username-input" name="bio-username" id="bio-username" cols="50" rows="6"></textarea> 
+  </div>
+  <div class="profile-inner-header-wrapper profile-username-wrapper">
+    <label for="profile-url" style="align-self: center;">Your Url</label>
+    <!-- <div class="profile-baseurl-wrapper"> -->
+      <p class="profile-baseurl-text">notify.com/</p>
+      <input class="profile-url-input" name="profile-url" id="profile-url" />
+    <!-- </div> -->
+  </div>
+  <div class="more-btn-wrapper">
+    <ion-button color="primary" class="more-btn">Save</ion-button>
+  </div>
+</ion-content>
+<ion-footer class="footer">
+  <ul class="footer-links-wrapper">
+    <li><a>Help</a></li>
+    <li><a>Privacy Policy</a></li>
+    <li><a>Contact</a></li>
+  </ul>
+</ion-footer>
