@@ -1,9 +1,85 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>sendnotifications</ion-title>
+    <ion-grid>
+      <ion-row class="auth-header-wrapper">
+        <ion-col size="3">
+          <p class="logo-heading-text">Logo Type</p>
+        </ion-col>
+        <ion-col size="4">
+          <ion-item class="search-input-wrapper">
+            <ion-input class="search-input"></ion-input>
+            <ion-icon name="search" slot="end"></ion-icon>
+          </ion-item>
+        </ion-col>
+        <ion-col size="5" class="auth-side-menu">
+          <ion-row class="header-avatar-row">
+            <img src="assets/img/notify-user-avatar-image.png" class="header-user-avatar">
+            <h2 class="header-avatar-title">Johny Smith</h2>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content class="profile-content-wrapper">
+  <ion-item lines="none">
+    <h2 class="subscriber-count-title">
+      Send Notifications
+    </h2>
+  </ion-item>
+  <div class="send-notifications-content-wrapper">
+    <label class="notification-message-input-label">Your Message <p>Chars(0/200)</p></label>
+    <textarea cols="100" rows="10"></textarea>
+  </div>
+  <div class="send-notifications-content-wrapper">
+    <label for="send-notifications-url-input" class="notification-message-input-label">URL<p>(Optional)</p></label>
+    <input class="send-notifications-url" name="send-notifications-url-input" id="send-notifications-url-input" />
+  </div>
+  <div class="send-notification-btns-wrapper">
+    <ion-button color="primary" class="more-btn">Send Now</ion-button>
+    <ion-button color="primary" class="more-btn">Schedule</ion-button>
+  </div>
+  <div class="send-notification-btns-wrapper send-notification-date-input-wrapper">
+    <ion-input name="send-notification-date" type="date"></ion-input>
+    <ion-input name="send-notification-time" type="time"></ion-input>
+  </div>
+  <ion-item lines="none">
+    <h2 class="subscriber-count-title">
+      Scheduled Notifications
+    </h2>
+  </ion-item>
+  <div class="notification-list-wrapper">
+    <div class="notification-list-item">
+      <div class="notification-time-wrapper">
+        <p class="date-text">2021-11-21</p>
+        <p class="time-text">12:00</p>
+      </div>
+      <div>
+        <p class="notification-text">This is just a demo scheduled notification</p>
+      </div>
+      <div>
+        <a href="#" class="notification-url-text">http://localhost:8100/notifications</a>
+      </div>
+    </div>
+    <div class="notification-list-item">
+      <div class="notification-time-wrapper">
+        <p class="date-text">2021-11-21</p>
+        <p class="time-text">12:00</p>
+      </div>
+      <div>
+        <p class="notification-text">This is just a demo scheduled notification</p>
+      </div>
+      <div>
+        <a href="#" class="notification-url-text">http://localhost:8100/notifications</a>
+      </div>
+    </div>
+  </div>
 </ion-content>
+<ion-footer class="footer">
+  <ul class="footer-links-wrapper">
+    <li><a>Help</a></li>
+    <li><a>Privacy Policy</a></li>
+    <li><a>Contact</a></li>
+  </ul>
+</ion-footer>

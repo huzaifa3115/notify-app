@@ -503,9 +503,11 @@ p.notification-text {
   margin-top: 6%;
 }
 
-textarea#bio-username {
+textarea#bio-username,
+.send-notifications-content-wrapper textarea {
   resize: none;
 }
+
 p.profile-baseurl-text {
   color: #b9b8b8;
 }
@@ -514,4 +516,44 @@ input#profile-url {
   height: 30px;
   align-self: center;
   margin-left: 1%;
+}
+
+.send-notifications-content-wrapper {
+  margin: 1% 5%;
+}
+
+.notification-message-input-label {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.notification-message-input-label p {
+  color: #888e8d;
+  margin-left: 1%;
+}
+
+.send-notification-btns-wrapper {
+  text-align: center;
+}
+
+.send-notification-btns-wrapper ion-button:first-child {
+  margin-right: 5%;
+}
+
+.send-notification-date-input-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.send-notification-date-input-wrapper ion-input {
+  flex: 0.2;
+  border: 1px solid #888e8d;
+  --padding-top: 2%;
+  --padding-bottom: 2%;
+}
+
+.send-notification-date-input-wrapper ion-input:first-child {
+  margin-right: 4%;
 }
