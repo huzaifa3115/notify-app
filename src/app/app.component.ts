@@ -7,11 +7,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public appPages = [
     { title: 'Dashboard', url: '#', icon: 'mail' },
-    { title: 'Profile', url: '#', icon: 'paper-plane' },
-    { title: 'Subscription', url: '#', icon: 'heart' },
-    { title: 'Subscribers', url: '#', icon: 'archive' },
-    { title: 'Send Notification', url: '#', icon: 'trash' },
-    { title: 'Notification Sent', url: '#', icon: 'warning' },
+    { title: 'Profile', url: 'profile', icon: 'paper-plane' },
+    { title: 'Subscription', url: 'subscription', icon: 'heart' },
+    { title: 'Subscribers', url: 'subscribers', icon: 'archive' },
+    { title: 'Send Notification', url: 'sendnotifications', icon: 'trash' },
+    { title: 'Notification Sent', url: 'notifications', icon: 'warning' },
     { title: 'Messages', url: '#', icon: 'warning' },
     { title: 'Settings', url: '#', icon: 'warning' },
     { title: 'Logout', url: '#', icon: 'warning' },
